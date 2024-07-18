@@ -28,4 +28,4 @@ empresa.procesarEmpleado(empleado5);
 let salida = document.getElementById('Salida');
 salida.innerHTML = 'Resultados'
 salida.innerHTML += '<br> Uno de los que gana menos = ' + empresa.devolverNombreSueldo();
-salida.innerHTML += '<br> Monto promedio pagado a administrativos = ' + empresa.devolverMontoPromedio();
+salida.innerHTML += '<br> Monto promedio pagado a administrativos = ' + empresa.devolverMontoPromedio() + '$';
